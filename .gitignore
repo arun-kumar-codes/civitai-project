@@ -1,0 +1,81 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# database
+/prisma/db.sqlite
+/prisma/db.sqlite-journal
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env
+.env*
+!.env-example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# docker volumes
+/postgres*
+/redis
+/minio
+/clickhouse*
+/undefined
+/.docker
+/prisma_pit
+
+# Meilisearch
+/meilisearch
+/data.ms/
+
+# WebStorm
+.idea
+*.http
+
+# SEO
+/public/sitemap*.xml
+/public/robots.txt
+ca-certificate.crt
+
+# IDE
+*~
+
+src/pages/api/admin/*.json
+trace/trace.json
+trace/types.json
+
+# Local files
+/src/local
+.todo
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/tests/auth/*.json
